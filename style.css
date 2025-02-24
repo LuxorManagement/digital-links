@@ -1,0 +1,87 @@
+/* Style général pour le body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1D1D2B;  /* Bleu nuit foncé pour une ambiance luxueuse */
+    color: #F4F4F4;  /* Texte blanc pur pour le contraste */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style pour le conteneur */
+.container {
+    background-color: #E5D7B9;  /* Beige clair doré pour une sensation de luxe */
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);  /* Ombre douce pour l'effet de profondeur */
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Style pour les titres */
+h1 {
+    color: #1D1D2B;  /* Bleu nuit foncé pour garder une cohérence avec l'arrière-plan */
+    font-size: 28px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+/* Style pour les boutons de lien */
+.link-button {
+    display: block;
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #D4AF37;  /* Or pâle pour un bouton luxueux */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Effet de survol pour les boutons */
+.link-button:hover {
+    background-color: #B78D1E;  /* Or plus foncé pour le survol */
+    transform: translateY(-2px);  /* Effet de déplacement léger pour le bouton */
+}
+
+/* Footer */
+footer {
+    background-color: #1D1D2B;  /* Fond assorti avec le fond de la page */
+    color: #F4F4F4;  /* Texte blanc pur */
+    text-align: center;
+    padding: 15px;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+
+
+
+/* Bouton */
+button {
+    background-color: #D4AF37;  /* Or pâle pour une touche de luxe */
+    color: #F4F4F4;  /* Texte blanc pour le contraste */
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #B78D1E;  /* Or plus foncé lors du survol */
+}
+
+/* Footer */
+footer {
+    background-color: #4C5C68;  /* Bleu profond pour l'élégance */
+    color: #F4F4F4;  /* Texte en blanc cassé */
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+}
